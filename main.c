@@ -5,7 +5,9 @@ int main()
 { int i;
     int array[10] ;
     for ( i=0; i<=10; i++)  {
-            array[i] = 1;
+            if (i % 2 == 1)
+                array[i]=1 ;
+                else array[i]=0;
     }
     //i= 1 ;
     int k=0;
