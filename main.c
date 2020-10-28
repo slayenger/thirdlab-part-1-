@@ -8,6 +8,10 @@ int main()
             if (i % 2 == 1)
                 array[i]=1 ;
                 else array[i]=0;
+		if ( i == 4)
+                        array[i] = 3;
+                            if (i == 5)
+                                array[i] = 2;
     }
     //i= 1 ;
     int k=0;
